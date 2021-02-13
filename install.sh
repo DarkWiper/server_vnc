@@ -10,4 +10,4 @@ cd .vnc
 apt-get install wget -y
 wget https://github.com/DarkWiper/server_vnc/blob/main/xstartup
 chmod 777 xstartup
-reboot
+
