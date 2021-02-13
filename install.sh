@@ -8,6 +8,4 @@ cp ~/.vnc/xstartup ~/.vnc/xstartup.bak
 rm -rf /.vnc/xstartup
 cd .vnc
 apt-get install wget -y
-
 chmod 777 xstartup
-
