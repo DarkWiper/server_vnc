@@ -5,9 +5,9 @@ sudo apt install tightvncserver -y
 vncserver
 vncserver -kill :1
 cp ~/.vnc/xstartup ~/.vnc/xstartup.bak
-rm -rf ~/.vnc/xstartup
 cd ~/.vnc
-apt-get install wget -y
+rm -rf xstartup
+sudo apt-get install wget -y
 wget https://github.com/DarkWiper/server_vnc/blob/main/xstartup
 chmod 777 xstartup
 
