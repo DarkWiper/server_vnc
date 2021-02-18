@@ -8,6 +8,6 @@ cp ~/.vnc/xstartup ~/.vnc/xstartup.bak
 cd ~/.vnc
 rm -rf xstartup
 sudo apt-get install wget -y
-wget https://github.com/DarkWiper/server_vnc/blob/main/xstartup
+git clone https://github.com/DarkWiper/server_vnc/blob/main/xstartup
 chmod 777 xstartup
 
